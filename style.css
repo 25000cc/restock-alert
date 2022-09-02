@@ -1,0 +1,144 @@
+.container {
+    height: 600px;
+    text-align: center;
+}
+
+.heading {
+    position: absolute;
+    width: 95%;
+    left: 2%;
+    top: 76px;
+    right: 0%;
+    bottom: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #00a1ff;
+    background-color: #fff306;
+    -webkit-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    font-size: 3.4em;
+    text-align: center;
+}
+
+.paragraph {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.top-column {
+    margin-top: 282px;
+    background-color: white;
+}
+
+.image {
+    max-width: 180px;
+}
+
+.column {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.heading-2 {
+    text-align: left;
+}
+
+.image-2 {
+    max-width: 120px;
+}
+
+.second-column {
+    margin-top: 100px;
+    background-color: white;
+}
+
+.body {
+    background-color: #fffabc;
+}
+
+.button {
+    margin-top: 75px;
+    padding: 14px 30px;
+    font-size: 14px;
+}
+
+.paragraph-2 {
+    margin-bottom: 0px;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+.w-row {
+    display: flex;
+}
+
+.w-col {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+}
+
+.w-col-4 {
+    width: 33.333333%;
+}
+
+.w-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-button {
+    display: inline-block;
+    background-color: #3898EC;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .heading-2 {
+        text-align: center;
+    }
+    .w-col {
+        width: 100%;
+        left: auto;
+        right: auto;
+    }
+    .w-row,
+    .w-container {
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .paragraph {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .w-container {
+        max-width: none;
+    }
+    .heading {
+        padding-right: 0;
+        font-size: 2.6em;
+        width: 100%;
+        left: 0;
+    }
+    .button {
+        margin-top: 70px;
+    }
+}
